@@ -1,0 +1,1270 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff8fc;
+    color: #333;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f1f5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    background-color: #8e44ad;
+    color: white;
+    padding: 30px;
+    margin: 0;
+}
+
+h2 {
+    color: #8e44ad;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    background-color: white;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 8px;
+}
+    nav {
+    background-color: #8e44ad;
+    padding: 18px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 18px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+.service {
+   
+.service {
+    background-color: white;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service h2 {
+    margin-top: 0;
+}
+.button {
+    display: inline-block;
+    background-color: #8e44ad;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.button:hover {
+    background-color: #6c3483;
+}
+.profile-photo {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px;
+}
+.whatsapp-button {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.whatsapp-button:hover {
+    opacity: 0.8;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+}
+.tiktok-button {
+    display: inline-block;
+    background-color: #000;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.tiktok-button:hover {
+    opacity: 0.8;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+section {
+    max-width: 900px;
+    margin: auto;
+    padding: 70px 20px;
+}
+
+section h1 {
+    font-size: 38px;
+    color: #8e44ad;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+section h2 {
+    color: #8e44ad;
+}
+
+section p {
+    line-height: 1.8;
+    font-size: 17px;
+}
+@media (max-width: 600px) {
+.contact-container {
+    flex-direction: column;
+}
+
+.contact-info,
+.contact-form {
+    width: 100%;
+    box-sizing: border-box;
+}
+.gallery-container {
+    grid-template-columns: 1fr;
+}
+
+.gallery-item img {
+    height: 250px;
+}
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .gallery img {
+        width: 90%;
+        height: auto;
+    }
+
+    section {
+        padding: 40px 15px;
+    }
+.about-section {
+    flex-direction: column;
+    text-align: center;
+}
+
+.about-image img {
+    width: 220px;
+    height: 220px;
+}
+
+}
+/* Professional Hero Section */
+
+.hero {
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #f8e8f5, #fce4ec);
+}
+
+.hero-content {
+    max-width: 750px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    color: #8e44ad;
+    margin-bottom: 10px;
+}
+
+.hero h2 {
+    font-size: 25px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.secondary-button {
+    background-color: #333;
+}
+
+.secondary-button:hover {
+    background-color: #555;
+}
+/* About Section */
+
+.about-section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 80px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h1 {
+    color: #8e44ad;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 15px;
+}
+/* Services Section */
+
+.services-section {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.services-section h1 {
+    color: #8e44ad;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.services-intro {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.services-container {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background-color: white;
+    width: 280px;
+    padding: 30px 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+}
+
+.service-card h2 {
+    color: #8e44ad;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    color: #555;
+    line-height: 1.7;
+}
+
+.service-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.service-card li {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+/* Gallery */
+
+.gallery-section {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.gallery-section h1 {
+    color: #8e44ad;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.gallery-intro {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.gallery-container {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.gallery-item {
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.12);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.gallery-item h3 {
+    color: #8e44ad;
+    margin-bottom: 5px;
+}
+/* Contact Section */
+
+.contact-section {
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.contact-section h1 {
+    color: #8e44ad;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.contact-intro {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.contact-container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-align: left;
+}
+
+.contact-info,
+.contact-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.12);
+    flex: 1;
+}
+
+.contact-info h2,
+.contact-form h2 {
+    color: #8e44ad;
+    margin-top: 0;
+}
+
+.contact-info p {
+    line-height: 1.8;
+    margin: 20px 0;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    margin-top: 20px;
+    background-color: #8e44ad;
+    color: white;
+    border: none;
+    padding: 14px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #6c3483;
+}
+footer {
+    background-color: #8e44ad;
+    color: white;
+    text-align: center;
+    padding: 25px 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 15px;
+}
+.button {
+    display: inline-block;
+    background-color: #8e44ad;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #6c3483;
+    transform: translateY(-2px);
+}
+.intro-section {
+    max-width: 850px;
+    margin: 50px auto;
+    padding: 60px 30px;
+    text-align: center;
+    background-color: white;
+    border-radius: 18px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.intro-section h1 {
+    color: #8e44ad;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.intro-section p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 18px;
+}
+
+.intro-section .button {
+    margin-top: 15px;
+}
+.skills-section {
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.skills-section h1 {
+    color: #8e44ad;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.skills-intro {
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.skills-container {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.skill-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.10);
+    transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-6px);
+}
+
+.skill-card h2 {
+    color: #8e44ad;
+    margin-bottom: 15px;
+}
+
+.skill-card p {
+    color: #555;
+    line-height: 1.7;
+}
+@media (max-width: 600px) {
+    .skills-container {
+        grid-template-columns: 1fr;
+    }
+}
+/* SALON HOMEPAGE */
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.salon-hero {
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+
+    background: linear-gradient(
+        to right,
+        #f8e8f5,
+        #fce4ec
+    );
+}
+
+.salon-hero-content {
+    max-width: 800px;
+}
+
+.welcome-text {
+    color: #8e44ad;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.salon-hero h1 {
+    color: #8e44ad;
+    font-size: 58px;
+    margin: 15px 0;
+}
+
+.salon-hero h2 {
+    color: #555;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.salon-hero p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #444;
+}
+
+.salon-hero .hero-buttons {
+    margin-top: 30px;
+}
+
+.salon-intro {
+    max-width: 850px;
+    margin: auto;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.section-label {
+    color: #8e44ad;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.salon-intro h1,
+.featured-services h1,
+.booking-section h1 {
+    color: #8e44ad;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.salon-intro p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.featured-services {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #fff0f7;
+}
+
+.featured-container {
+    max-width: 1100px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.featured-card {
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.10);
+    transition: transform 0.3s ease;
+}
+
+.featured-card:hover {
+    transform: translateY(-8px);
+}
+
+.service-icon {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.featured-card h2 {
+    color: #8e44ad;
+}
+
+.featured-card p {
+    color: #555;
+    line-height: 1.7;
+}
+
+.booking-section {
+    padding: 90px 20px;
+    text-align: center;
+    background: linear-gradient(
+        to right,
+        #f8e8f5,
+        #fce4ec
+    );
+}
+
+.booking-content {
+    max-width: 700px;
+    margin: auto;
+}
+
+.booking-section p {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 800px) {
+
+    .featured-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .salon-hero h1 {
+        font-size: 42px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .featured-container {
+        grid-template-columns: 1fr;
+    }
+
+    .salon-hero h1 {
+        font-size: 35px;
+    }
+
+    .salon-hero h2 {
+        font-size: 21px;
+    }
+
+    .logo {
+        font-size: 21px;
+    }
+
+}
+/* ABOUT SALON PAGE */
+
+.page-header {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(
+        to right,
+        #f8e8f5,
+        #fce4ec
+    );
+}
+
+.page-header h1 {
+    color: #8e44ad;
+    font-size: 45px;
+    margin: 15px 0;
+}
+
+.page-header p:last-child {
+    color: #555;
+    font-size: 18px;
+}
+
+
+.about-salon {
+    max-width: 1050px;
+    margin: auto;
+    padding: 80px 20px;
+
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.about-salon-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-salon-image img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.about-salon-text {
+    flex: 1;
+}
+
+.about-salon-text h1 {
+    color: #8e44ad;
+    font-size: 38px;
+    margin: 10px 0 20px;
+}
+
+.about-salon-text p {
+    color: #555;
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 18px;
+}
+
+
+.why-us {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #fff0f7;
+}
+
+.why-us h1 {
+    color: #8e44ad;
+    font-size: 38px;
+    margin-bottom: 40px;
+}
+
+.why-container {
+    max-width: 1000px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.why-card {
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 15px;
+
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.10);
+}
+
+.why-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.why-card h2 {
+    color: #8e44ad;
+}
+
+.why-card p {
+    color: #555;
+    line-height: 1.7;
+}
+
+
+@media (max-width: 700px) {
+
+    .about-salon {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-salon-image img {
+        width: 280px;
+        height: 280px;
+    }
+
+    .why-container {
+        grid-template-columns: 1fr;
+    }
+
+    .page-header h1 {
+        font-size: 35px;
+    }
+
+}
+/* SERVICES PAGE */
+
+.service-category {
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.service-category h1 {
+    color: #8e44ad;
+    font-size: 38px;
+    margin: 10px 0 35px;
+}
+
+.service-list {
+    max-width: 1050px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.price-card {
+    background-color: white;
+    padding: 30px 25px;
+    border-radius: 15px;
+
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.10);
+
+    transition: transform 0.3s ease;
+}
+
+.price-card:hover {
+    transform: translateY(-7px);
+}
+
+.price-card h2 {
+    color: #8e44ad;
+    margin-bottom: 15px;
+}
+
+.price-card p {
+    color: #555;
+    line-height: 1.7;
+    min-height: 55px;
+}
+
+.price-card span {
+    display: block;
+    margin-top: 20px;
+
+    color: #8e44ad;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.alternate-section {
+    background-color: #fff0f7;
+}
+
+@media (max-width: 800px) {
+
+    .service-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .service-list {
+        grid-template-columns: 1fr;
+    }
+
+}
+/* SALON GALLERY */
+
+.salon-gallery {
+    padding: 70px 20px;
+    background-color: #fff8fc;
+}
+
+.gallery-grid {
+    max-width: 1100px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.gallery-photo {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.10);
+
+    transition: transform 0.3s ease;
+}
+
+.gallery-photo:hover {
+    transform: translateY(-7px);
+}
+
+.gallery-photo img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    display: block;
+}
+
+.photo-caption {
+    padding: 18px;
+    text-align: center;
+}
+
+.photo-caption h3 {
+    color: #8e44ad;
+    margin: 0 0 8px;
+    font-size: 21px;
+}
+
+.photo-caption p {
+    color: #555;
+    margin: 0;
+    line-height: 1.6;
+}
+
+@media (max-width: 800px) {
+
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-photo img {
+        height: 300px;
+    }
+
+}
+<nav>
+
+    <div class="logo">
+        The Beauty Blue Print
+    </div>
+
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+</nav>
+/* ORGANIZED GALLERY */
+
+.gallery-category {
+    padding: 70px 20px;
+    text-align: center;
+    background-color: #fff8fc;
+}
+
+.alternate-gallery {
+    background-color: #fff0f7;
+}
+
+.gallery-category h1 {
+    color: #8e44ad;
+    font-size: 38px;
+    margin: 10px 0 15px;
+}
+
+.category-description {
+    max-width: 700px;
+    margin: 0 auto 35px;
+    color: #555;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.gallery-grid {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.gallery-photo {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.10);
+    transition: transform 0.3s ease;
+}
+
+.gallery-photo:hover {
+    transform: translateY(-7px);
+}
+
+.gallery-photo img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    display: block;
+}
+
+.photo-caption {
+    padding: 18px;
+    text-align: center;
+}
+
+.photo-caption h3 {
+    color: #8e44ad;
+    margin: 0 0 8px;
+    font-size: 21px;
+}
+
+.photo-caption p {
+    color: #555;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* TABLET */
+@media (max-width: 800px) {
+
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+/* PHONE */
+@media (max-width: 600px) {
+
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-photo img {
+        height: 300px;
+    }
+
+    .gallery-category h1 {
+        font-size: 32px;
+    }
+
+}
+/* SERVICE BOOKING BUTTON */
+
+.service-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 11px 20px;
+    background-color: #8e44ad;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.service-button:hover {
+    background-color: #6c3483;
+    transform: translateY(-2px);
+}
+/* HOME HERO IMAGE */
+
+.salon-hero {
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 70px 30px;
+    background: linear-gradient(to right, #f8e8f5, #fce4ec);
+}
+
+.salon-hero-image {
+    flex: 1;
+    text-align: center;
+}
+
+.salon-hero-image img {
+    width: 380px;
+    height: 430px;
+    object-fit: cover;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.salon-hero-content {
+    flex: 1;
+    max-width: 600px;
+}
+
+.secondary-button {
+    background-color: white;
+    color: #8e44ad;
+    border: 2px solid #8e44ad;
+    margin-left: 10px;
+}
+
+.secondary-button:hover {
+    background-color: #8e44ad;
+    color: white;
+}
+
+@media (max-width: 800px) {
+
+    .salon-hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .salon-hero-image img {
+        width: 280px;
+        height: 320px;
+    }
+
+    .secondary-button {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+}
